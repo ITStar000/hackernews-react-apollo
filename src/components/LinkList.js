@@ -3,7 +3,6 @@ import Link from './Link';
 
 import { useQuery, gql } from '@apollo/client';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { getQueriesForElement } from '@testing-library/react';
 import { LINKS_PER_PAGE } from '../constants';
 
 export const FEED_QUERY = gql`
